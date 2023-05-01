@@ -1,6 +1,6 @@
 import React from "react";
-import samy from "../assets/sampic.png";
-import Button from "./button/index";
+import samy from "../.././assets/sampic.png";
+import Button from "../Button/index";
 
 const Home = () => {
   return (
