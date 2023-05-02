@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <section className="bg-blue">
       <header
-        className="text-white flex justify-between  items-center p-5 text-xl font-serif
+        className="text-white flex justify-center  md:justify-between  items-center p-5 text-xl font-serif
       "
       >
         <h1 className="">Egajivwie samuel</h1>
-        <ul className="flex justify-around md:w-[380px] font-thin">
+        <ul className="md:flex justify-around md:w-[380px] font-thin hidden">
           <li className="menu">Home</li>
           <li className="menu">About</li>
           <li className="menu">Projects</li>
@@ -22,16 +22,16 @@ const Home = () => {
       {/* intro and image section */}
       <div className="flex flex-col justify-center">
         <div className="flex justify-center  w-full  text-white mt-5">
-          <div className="flex justify-around items-center  w-full ">
-            <div className="flex md:flex-col">
-              <span className=" mb-5">
-                <p className="text-4xl tracking-wide">
+          <div className="flex md:justify-around items-center  w-full flex-col-reverse ">
+            <div className="flex flex-col  ">
+              <span className=" md:mb-5 text-center m-3 ">
+                <p className="md:text-4xl md:tracking-wide text-2xl pl-3 pr-3 text-center">
                   I am the guy you come to <br /> when you
                   <strong> need things done</strong>.
                 </p>
               </span>
-              <span className="mt-5 ">
-                <p className="text-md tracking-wide ">
+              <span className="md:mt-5  text-center mt-3 mb-5">
+                <p className="text-md md:tracking-wide text-center ">
                   I'm Egajivwie samuel an experienced UI/UX designer
                   <br /> with 2 years of experience in the design <br />
                   industry .Let's make awesome stuff together!
