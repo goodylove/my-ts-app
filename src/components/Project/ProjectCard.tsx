@@ -8,7 +8,7 @@ type projectProps = {
 const ProjectCard = ({ data }: projectProps) => {
   return (
     <div>
-      <img src={data.img} alt="" className="w-[300px] h-[250px]" />
+      <img src={data.img} alt="" className="w-[300px] h-[250px] rounded" />
     </div>
   );
 };
