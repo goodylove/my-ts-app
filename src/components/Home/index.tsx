@@ -22,7 +22,7 @@ const Home = () => {
       {/* intro and image section */}
       <div className="flex flex-col justify-center">
         <div className="flex justify-center  w-full  text-white mt-5">
-          <div className="flex md:justify-around items-center  w-full flex-col-reverse ">
+          <div className="flex md:justify-around items-center  w-full flex-col-reverse md:flex-row ">
             <div className="flex flex-col  ">
               <span className=" md:mb-5 text-center m-3 ">
                 <p className="md:text-4xl md:tracking-wide text-2xl pl-3 pr-3 text-center">

@@ -11,8 +11,8 @@ const About = () => {
         />
       </div>
       <div className="flex justify-center p-2">
-        <div className="absolute bg-gray h-40 w-40 rounded-full -z-10"></div>
-        <div className="absolute bg-gray h-10 w-10  top-0  left-40  rounded-full -z-10"></div>
+        <div className="absolute bg-gray h-40 w-40  top-[50%] rounded-full -z-10"></div>
+        <div className="absolute bg-gray h-10 w-10  top-0  left-9  md:left-40  rounded-full -z-10"></div>
         <p className="md:w-[80%] text-blue font-bold text-center leading-8">
           I am a UI/UX designer with 2 years of experience in the design
           industry.I good at at create easy-to- use and aesthetically pleasant

@@ -33,3 +33,47 @@ export const projects = [
     img: img,
   },
 ];
+
+export const skills = [
+  {
+    name: "Adobe Page Maker",
+    level: "90%",
+    colors: "#FFB300",
+  },
+  {
+    name: "Microsoft Word Office",
+    level: "90%",
+    colors: "#20FF00",
+  },
+  {
+    name: "Microsoft Excel Office",
+    level: "90%",
+    colors: "#F2F20E",
+  },
+  {
+    name: "Corel Draw",
+    level: "90%",
+    colors: "#20FF00",
+  },
+  {
+    name: "Adobe Photoshop",
+    level: "90%",
+    colors: "#20FF00",
+  },
+  {
+    name: "Adobe Illustrator",
+    level: "90%",
+    colors: "#20FF00",
+  },
+
+  {
+    name: "Figma",
+    level: "90%",
+    colors: "#20FF00",
+  },
+  {
+    name: "Adobe XD",
+    level: "90%",
+    colors: "#20FF00",
+  },
+];
