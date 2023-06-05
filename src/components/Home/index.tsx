@@ -4,11 +4,10 @@ import Button from "../Button/index";
 
 const Home = () => {
   return (
-    <section className="bg-blue p-5">
+    <section className="bg-blue p-5" id="top">
       <header
         className="text-white flex justify-center  md:justify-between  items-center p-5 text-xl font-serif
       "
-        id="top"
       >
         <h1 className="">Egajivwie samuel</h1>
         <ul className="md:flex justify-around md:w-[380px] font-thin hidden">
