@@ -4,7 +4,7 @@ import Button from "../Button/index";
 
 const Home = () => {
   return (
-    <section className="bg-blue">
+    <section className="bg-blue" id="top">
       <header
         className="text-white flex justify-center  md:justify-between  items-center p-5 text-xl font-serif
       "

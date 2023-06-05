@@ -9,7 +9,7 @@ const skill = () => {
         <div className="flex justify-center m-3">
           <Button
             className="text-white  border-[1px] border-white  p-1 rounded-md w-[100px] bg-transparent  m-2"
-            text="Skill"
+            text="Skills"
           />
         </div>
         <div className="grid grid-cols-2 content-center gap-4">
