@@ -45,3 +45,15 @@ html {
 .menu:hover::after {
   width: 100%;
 }
+
+.arrow {
+  animation: 0.9s infinite spin;
+}
+@keyframes spin {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

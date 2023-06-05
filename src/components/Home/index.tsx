@@ -4,7 +4,7 @@ import Button from "../Button/index";
 
 const Home = () => {
   return (
-    <section className="bg-blue" id="top">
+    <section className="bg-blue p-5" id="top">
       <header
         className="text-white flex justify-center  md:justify-between  items-center p-5 text-xl font-serif
       "
@@ -18,7 +18,7 @@ const Home = () => {
             <a href="#about">About</a>
           </li>
           <li className="menu">
-            <a href="#projects"> Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="menu">
             <a href="#skills">Skills</a>

@@ -3,7 +3,7 @@ import Button from "../Button/index";
 
 const About = () => {
   return (
-    <section className="relative m-5 " id="about">
+    <section className="relative m-5  p-2" id="about">
       <div className="flex justify-center m-2">
         <Button
           text={"About"}
