@@ -4,7 +4,7 @@ import { projects } from "../../Data";
 import ProjectCard from "./ProjectCard";
 const Project = () => {
   return (
-    <section className="bg-blue p-3">
+    <section className="bg-blue p-2" id="projects">
       <div className="flex justify-center m-2">
         <Button
           text={"project"}
