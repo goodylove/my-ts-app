@@ -4,7 +4,7 @@ import Bar from "./Bar";
 
 const skill = () => {
   return (
-    <section className="bg-blue flex justify-center w-full">
+    <section className="bg-blue flex justify-center w-full" id="skills">
       <div className="w-[80%] flex flex-col justify-center ">
         <div className="flex justify-center m-3">
           <Button

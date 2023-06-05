@@ -11,11 +11,21 @@ const Home = () => {
       >
         <h1 className="">Egajivwie samuel</h1>
         <ul className="md:flex justify-around md:w-[380px] font-thin hidden">
-          <li className="menu">Home</li>
-          <li className="menu">About</li>
-          <li className="menu">Projects</li>
-          <li className="menu">Skills</li>
-          <li className="menu">Contact</li>
+          <li className="menu">
+            <a href="#">Home</a>
+          </li>
+          <li className="menu">
+            <a href="#about">About</a>
+          </li>
+          <li className="menu">
+            <a href="#projects"> Projects</a>
+          </li>
+          <li className="menu">
+            <a href="#skills">Skills</a>
+          </li>
+          <li className="menu">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </header>
 
@@ -45,14 +55,18 @@ const Home = () => {
           </div>
         </div>
         <div className="flex md:w-[498px] justify-center mb-3">
-          <Button
-            text={"See My Works"}
-            className="text-blue bg-white border-2 p-2 rounded-md w-[130px] m-2"
-          />
-          <Button
-            text={"About Me"}
-            className="text-white  border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2"
-          />
+          <a href="#projects">
+            <Button
+              text={"See My Works"}
+              className="text-blue bg-white border-2 p-2 rounded-md w-[130px] m-2"
+            />
+          </a>
+          <a href="#about">
+            <Button
+              text={"About Me"}
+              className="text-white  border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2"
+            />
+          </a>
         </div>
       </div>
     </section>
