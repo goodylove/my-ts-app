@@ -37,7 +37,7 @@ const Home = () => {
           onClick={() => setToggleMenu(true)}
         />
         {toggleMenu && (
-          <div className="w-[68px] rounded-r-3xl p-1  bg-[#042d75cc] shadow-md mt-2 ease-in-out  scale-[0.9]">
+          <div className="w-[68px] rounded-r-3xl p-1  bg-[#042d75cc] shadow-md mt-2 mobile">
             <div
               className="text-end pr-2 text-white"
               onClick={() => setToggleMenu(false)}
