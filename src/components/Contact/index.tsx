@@ -34,6 +34,7 @@ const Contact = () => {
               <a
                 href="https://facebook.com/Egajivwie Samuel"
                 className="flex items-center gap-2"
+                target="_blank"
               >
                 <BsFacebook />
                 Egajivwie Samuel
@@ -41,8 +42,9 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://linkedin.com/@akpevwe102"
+                href="https://www.linkedin.com/in/samuel-egajivwie-14288a273"
                 className="flex items-center gap-2"
+                target="_blank"
               >
                 <AiFillLinkedin />
                 samuel akpevwe
@@ -50,8 +52,9 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/@akpevwe102"
+                href="https://www.twitter.com/@akpevwe102"
                 className="flex items-center gap-2"
+                target="_blank"
               >
                 <ImTwitter />
                 @akpevwe102
