@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex justify-center m-2">
         <Button
           text={"About"}
-          className=" border-[1px] border-blue  rounded p-2 font-bold text-blue w-28"
+          className=" md:border-[1px] border-blue  rounded p-2 font-bold text-blue w-28"
         />
       </div>
       <div className="flex justify-center p-2">

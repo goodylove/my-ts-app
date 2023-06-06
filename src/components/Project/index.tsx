@@ -8,7 +8,7 @@ const Project = () => {
       <div className="flex justify-center m-2">
         <Button
           text={"project"}
-          className="text-white  border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2"
+          className="text-white  md:border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2"
         />
       </div>
       <div className="flex justify-center">

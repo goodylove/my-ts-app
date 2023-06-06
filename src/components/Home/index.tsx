@@ -1,6 +1,8 @@
 import React from "react";
 import samy from "../.././assets/sampic.png";
 import Button from "../Button/index";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Home = () => {
   return (
@@ -28,7 +30,28 @@ const Home = () => {
           </li>
         </ul>
       </header>
-
+      <div className="flex md:hidden text-start">
+        <GiHamburgerMenu className="text-white text-[20px]" />
+        <div>
+          <ul className="md:flex justify-around md:w-[380px] font-thin hidden">
+            <li className="menu">
+              <a href="#">Home</a>
+            </li>
+            <li className="menu">
+              <a href="#about">About</a>
+            </li>
+            <li className="menu">
+              <a href="#projects">Projects</a>
+            </li>
+            <li className="menu">
+              <a href="#skills">Skills</a>
+            </li>
+            <li className="menu">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
       {/* intro and image section */}
       <div className="flex flex-col justify-center">
         <div className="flex justify-center  w-full  text-white mt-5">
