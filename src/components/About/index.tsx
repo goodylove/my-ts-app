@@ -14,10 +14,10 @@ const About = () => {
         <div className="absolute bg-gray h-10 w-10  top-0  left-9  md:left-40  rounded-full -z-10"></div>
         <p className="md:w-[80%] text-blue font-bold text-center leading-8">
           I am a UI/UX designer with 2 years of experience in the design
-          industry.I good at at create easy-to- use and aesthetically pleasant
+          industry.I am good at creating easy-to- use and aesthetically pleasant
           interface by analyzing the users' needs and researching the best ways
           to create usable and successful products. User-centered designs come
-          from a user-centered workflow: as a UI/UX Designer I Understand the
+          from a user-centered workflow,as a UI/UX Designer I Understand the
           importance of data analysis, research wireframing prototyping. and
           usability testing .Pixels aren't but a small yet fascinating part of
           Product Design. Project Skills Adobe Page Maker Adobe Photoshop
