@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import samy from "../.././assets/sampic.png";
-import Button from "../Button/index";
+import Button from "../Button/button";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -91,16 +91,14 @@ const Home = () => {
         </div>
         <div className="flex md:w-[498px] justify-center mb-3">
           <a href="#projects">
-            <Button
-              text={"See My Works"}
-              className="text-blue bg-white border-2 p-2 rounded-md w-[130px] m-2"
-            />
+            <Button className="text-blue bg-white border-2 p-2 rounded-md w-[130px] m-2">
+              See My Works
+            </Button>
           </a>
           <a href="#about">
-            <Button
-              text={"About Me"}
-              className="text-white  border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2"
-            />
+            <Button className="text-white  border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2">
+              About Me
+            </Button>
           </a>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import Button from "./../Button/index";
+import Button from "../Button/button";
 import { ImTwitter } from "react-icons/im";
 import { BsFacebook, BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
@@ -7,10 +7,9 @@ const Contact = () => {
   return (
     <section className="bg-blue p-3 w-full" id="contact">
       <div className="flex justify-center m-2">
-        <Button
-          text={"Contact"}
-          className="text-white  border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2"
-        />
+        <Button className="text-white  border-[1px] border-white  p-2 rounded-md w-[130px] bg-transparent  m-2">
+          Contact
+        </Button>
       </div>
       <div className="flex p-6 justify-center ml-9 ">
         <div className="text-white w-full ">

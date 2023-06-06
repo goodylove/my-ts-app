@@ -1,14 +1,13 @@
 import React from "react";
-import Button from "../Button/index";
+import Button from "../Button/button";
 
 const About = () => {
   return (
     <section className="relative m-5  p-2" id="about">
       <div className="flex justify-center m-2">
-        <Button
-          text={"About"}
-          className=" md:border-[1px] border-blue  rounded p-2 font-bold text-blue w-28"
-        />
+        <Button className=" md:border-[1px] border-blue  rounded p-2 font-bold text-blue w-28">
+          About
+        </Button>
       </div>
       <div className="flex justify-center p-2">
         <div className="absolute bg-gray h-40 w-40  top-[50%] rounded-full -z-10"></div>
