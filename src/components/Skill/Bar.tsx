@@ -33,7 +33,7 @@ const Bar = ({ skill }: BarProps) => {
     },
   };
   return (
-    <div className="m-2 w-full p-5">
+    <div className="m-2 w-full p-1">
       <m.div
         className="md:w-9/12 rounded-full  h-2 border-[1px] border-white w-full"
         variants={item}
@@ -48,7 +48,9 @@ const Bar = ({ skill }: BarProps) => {
           animate="show"
         ></m.div>
       </m.div>
-      <span className="text-white text-sm pl-2">{skill.name}</span>
+      <span className="text-white   text-[10px] md:text-sm pl-2">
+        {skill.name}
+      </span>
     </div>
   );
 };

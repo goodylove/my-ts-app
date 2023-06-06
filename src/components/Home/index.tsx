@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import samy from "../.././assets/sampic.png";
 import Button from "../Button/index";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Home = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <section className="bg-blue p-5" id="top">
       <header
@@ -28,7 +31,39 @@ const Home = () => {
           </li>
         </ul>
       </header>
-
+      <div className="flex md:hidden text-start flex-col justify-start items-start cursor-pointer">
+        <GiHamburgerMenu
+          className="text-white text-[20px]"
+          onClick={() => setToggleMenu(true)}
+        />
+        {toggleMenu && (
+          <div className="w-[68px] rounded-r-3xl p-1  bg-[#042d75cc] shadow-md mt-2 mobile">
+            <div
+              className="text-end pr-2 text-white"
+              onClick={() => setToggleMenu(false)}
+            >
+              X
+            </div>
+            <ul className="md:flex justify-around md:w-[380px] font-thin text-white gap-2 p-1 text-[12px]">
+              <li className="menu">
+                <a href="#">Home</a>
+              </li>
+              <li className="menu">
+                <a href="#about">About</a>
+              </li>
+              <li className="menu">
+                <a href="#projects">Projects</a>
+              </li>
+              <li className="menu">
+                <a href="#skills">Skills</a>
+              </li>
+              <li className="menu">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        )}
+      </div>
       {/* intro and image section */}
       <div className="flex flex-col justify-center">
         <div className="flex justify-center  w-full  text-white mt-5">

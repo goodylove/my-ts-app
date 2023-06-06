@@ -8,7 +8,7 @@ const skill = () => {
       <div className="w-[80%] flex flex-col justify-center ">
         <div className="flex justify-center m-3">
           <Button
-            className="text-white  border-[1px] border-white  p-1 rounded-md w-[100px] bg-transparent  m-2"
+            className="text-white  md:border-[1px] border-white  p-1 rounded-md w-[100px] bg-transparent  m-2"
             text="Skills"
           />
         </div>
