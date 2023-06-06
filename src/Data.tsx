@@ -34,22 +34,22 @@ export const projects = [
 export const skills = [
   {
     name: "Adobe-Pag-eMaker",
-    level: "90%",
+    level: "95%",
     colors: "#FFB300",
   },
   {
     name: "Microsoft-Word-Office",
-    level: "90%",
+    level: "100%",
     colors: "#20FF00",
   },
   {
     name: "Microsoft-Excel-Office",
-    level: "90%",
+    level: "100%",
     colors: "#F2F20E",
   },
   {
     name: "Corel-Draw",
-    level: "90%",
+    level: "100%",
     colors: "#20FF00",
   },
   {
@@ -59,18 +59,18 @@ export const skills = [
   },
   {
     name: "Adobe-Illustrator",
-    level: "90%",
+    level: "97%",
     colors: "#20FF00",
   },
 
   {
     name: "Figma",
-    level: "90%",
+    level: "80%",
     colors: "#20FF00",
   },
   {
     name: "Adobe-XD",
-    level: "90%",
+    level: "99%",
     colors: "#20FF00",
   },
 ];

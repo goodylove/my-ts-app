@@ -34,8 +34,8 @@ const Home = () => {
       </header>
       <div className="flex md:hidden text-start flex-col justify-start items-start cursor-pointer">
         <GiHamburgerMenu
-          className="text-white text-[20px]"
-          onClick={() => setToggleMenu(true)}
+          className="text-white text-[29px]"
+          onClick={() => setToggleMenu((prev) => !prev)}
         />
         {toggleMenu && (
           <div className="w-[90px] rounded-r-3xl p-1  bg-[#042d75cc] shadow-md mt-2 mobile">
@@ -43,7 +43,7 @@ const Home = () => {
               className="text-end pr-2 text-white flex justify-end "
               onClick={() => setToggleMenu(false)}
             >
-              <RiCloseFill className="text-[40px]" />
+              <RiCloseFill className="text-[30px]" />
             </div>
             <ul className="md:flex justify-around md:w-[380px] font-thin text-white gap-2 p-1 text-[18px]">
               <li className="menu">

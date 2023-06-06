@@ -7,9 +7,7 @@ import Bar from "./Bar";
 const Skill = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
-  useEffect(() => {
-    console.log(inView);
-  }, [inView]);
+
   return (
     <section
       className="bg-blue flex justify-center w-full"
@@ -22,11 +20,13 @@ const Skill = () => {
             Skills
           </Button>
         </div>
-        <div className="grid grid-cols-2 content-center gap-4">
-          {skills.map((skill, index) => {
-            return <Bar skill={skill} key={index} />;
-          })}
-        </div>
+        {inView && (
+          <div className="grid grid-cols-2 content-center gap-4">
+            {skills.map((skill, index) => {
+              return <Bar skill={skill} key={index} />;
+            })}
+          </div>
+        )}
       </div>
     </section>
   );
