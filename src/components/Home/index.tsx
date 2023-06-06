@@ -13,7 +13,7 @@ const Home = () => {
         className="text-white flex justify-center  md:justify-between  items-center p-5 text-xl font-serif
       "
       >
-        <h1 className=" text-[30px] font-[500]   font-mono  tracking-tighter leading-5 decoration-from-font">
+        <h1 className="text-[30px] font-[500]   font-mono  tracking-tighter leading-5   ">
           Egajivwie Samuel
         </h1>
         <ul className="md:flex justify-around md:w-[380px] font-thin hidden">
