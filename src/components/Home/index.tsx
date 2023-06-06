@@ -3,6 +3,7 @@ import samy from "../.././assets/sampic.png";
 import Button from "../Button/button";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { RiCloseFill } from "react-icons/ri";
 
 const Home = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -33,18 +34,18 @@ const Home = () => {
       </header>
       <div className="flex md:hidden text-start flex-col justify-start items-start cursor-pointer">
         <GiHamburgerMenu
-          className="text-white text-[20px]"
-          onClick={() => setToggleMenu(true)}
+          className="text-white text-[29px]"
+          onClick={() => setToggleMenu((prev) => !prev)}
         />
         {toggleMenu && (
-          <div className="w-[68px] rounded-r-3xl p-1  bg-[#042d75cc] shadow-md mt-2 mobile">
+          <div className="w-[90px] rounded-r-3xl p-1  bg-[#042d75cc] shadow-md mt-2 mobile">
             <div
-              className="text-end pr-2 text-white"
+              className="text-end pr-2 text-white flex justify-end "
               onClick={() => setToggleMenu(false)}
             >
-              X
+              <RiCloseFill className="text-[30px]" />
             </div>
-            <ul className="md:flex justify-around md:w-[380px] font-thin text-white gap-2 p-1 text-[12px]">
+            <ul className="md:flex justify-around md:w-[380px] font-thin text-white gap-2 p-1 text-[18px]">
               <li className="menu">
                 <a href="#">Home</a>
               </li>
