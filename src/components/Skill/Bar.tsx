@@ -32,6 +32,7 @@ const Bar = ({ skill }: BarProps) => {
       },
     },
   };
+
   return (
     <div className="m-2 w-full p-1">
       <m.div
